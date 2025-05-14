@@ -1,0 +1,8 @@
+
+.boxx {
+  box-shadow:
+    0 4px 10px rgba(128, 90, 213, 0.4),   /* Soft inner glow */
+    0 8px 25px rgba(168, 85, 247, 0.5);    /* Brighter outer glow */
+}
+
+
