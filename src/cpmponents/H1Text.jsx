@@ -23,7 +23,7 @@ function H1Text() {
         '#1976D2', // Royal Blue
         '#8E24AA', // Violet
         '#FBC02D', // Gold
-        '#C2185B'  // Crimson
+        '#C2185B',  // Crimson
       ];
       const [index, setIndex] = useState(0);
       

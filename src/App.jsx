@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./App.css";
 import Navbar from "./cpmponents/Navbar";
 import H1Text from "./cpmponents/H1Text";
@@ -19,6 +20,8 @@ import MovingButton from "./cpmponents/UIDesign/MovingButtons";
 import Footer from "./cpmponents/Footer";
 
 function App() {
+  const navigate = useNavigate();
+
   return (
     <>
       <br></br> <br></br>
@@ -35,7 +38,12 @@ function App() {
         <br></br>
 
 
-        <IconButtonWhite label="Get Started" iconUrl={arrow} className="text-2xl px-9 py-4" />
+        <IconButtonWhite 
+          label="Get Started" 
+          iconUrl={arrow} 
+          className="text-2xl px-9 py-4 transform transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-300/50 hover:bg-opacity-90" 
+          onClick={() => navigate('/login')}
+        />
         <div className="flex justify-center items-center mt-10 py-9">
           <Tooltip />
         </div>
