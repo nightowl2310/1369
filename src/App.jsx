@@ -77,6 +77,8 @@ function App() {
         
         <Video /> <br></br> <br></br> 
         <hr className="border-t-2 border-white opacity-50 mt-2" />
+
+        <hr className="border-t-2 border-white opacity-50 mt-2" />
         <div className="flex justify-center items-center mt-10 flex-col">
         <br></br> <br></br>
        <h1 class="text-5xl md:text-5xl font-bold bg-gradient-to-r from-[#3F31CB] via-[#4C3FFE] to-[#685FFF] text-transparent bg-clip-text animate-gradient lg:block mb-1">

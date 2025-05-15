@@ -8,25 +8,25 @@ import  arrowDownCircle  from './arrowDownCircle.svg'
 function AllQuestions() {
   const faqs = [
   {
-    question: "What is MyApp™?",
-    answer: "MyApp™ is an AI-powered platform designed to enhance productivity, automate tasks, and provide smart assistance across devices.",
+    question: "What is Fluence AI?",
+    answer: "Fluence AI is a smart assistant that automatically replies to your social media comments, using your personal style to boost engagement and save you time.",
   },
   {
-    question: "What does MyApp AI include?",
-    answer: "MyApp AI includes tools like smart scheduling, intelligent reminders, automated customer support, and real-time insights generation.",
+    question: "How does Fluence AI reply to comments?",
+    answer: "It learns your tone by analyzing your past comments and generates personalized replies automatically.",
   },
   {
-    question: "Is MyApp Approved by Meta/Facebook?",
-    answer: "No, MyApp is an independent tool and is not affiliated with or approved by Meta or Facebook.",
+    question: "Which social platforms does Fluence AI support?",
+    answer: "Currently supports YouTube and Instagram, with plans to expand.",
   },
   {
-    question: "Is MyApp accessible from mobile?",
-    answer: "Yes, MyApp is fully accessible via mobile browsers and has native apps for both Android and iOS platforms.",
+    question: "Is my account login secure?",
+    answer: "Yes, login is via official YouTube OAuth with full security compliance.",
   },
   {
-    question: "How does MyApp ensure the security of my data?",
-    answer: "MyApp uses end-to-end encryption, secure authentication protocols, and follows industry-standard compliance to keep your data safe.",
-  }
+    question: "Do you offer free trials?",
+    answer: "Yes, a limited demo version is available before subscription.",
+  } 
 ];
 
     
