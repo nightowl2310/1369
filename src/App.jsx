@@ -49,13 +49,15 @@ function App() {
         </div>
         
         <div className="w-full max-w-4xl mx-auto px-4">
-          
-          <hr className="border-t-2 border-white opacity-50 mt-2" />
-        </div>
+          <br></br><br></br>
 
-        <h2 className="mt-10 text-white text-5xl md:text-5xl font-semibold mb-10">
-          Features
-        </h2>
+          <hr className="border-t-2 border-white opacity-50 mt-2" />
+        </div><br></br> <br></br><br></br>
+
+        <h2 id="features" className="mt-10 text-5xl md:text-5xl font-semibold mb-10 bg-gradient-to-r from-[#3F31CB] via-[#4C3FFE] to-[#685FFF] text-transparent bg-clip-text scroll-mt-24">
+  Features
+</h2>
+
         <div className="features flex flex-wrap gap-3 justify-center items-start">
           <IconButtonSquare label="AI-Powered Replies" className="hover:shadow-[0_2px_5px_rgba(255,255,255,0.2)] hover:scale-105 transition-transform duration-200 text-lg px-6 py-3" />
 <IconButtonSquare label="Keyword Replies" className="hover:shadow-[0_2px_5px_rgba(255,255,255,0.2)] hover:scale-105 transition-transform duration-200 text-lg px-6 py-3" />
@@ -73,13 +75,16 @@ function App() {
 
         </div>
         
-        <Video />
+        <Video /> <br></br> <br></br> 
         <hr className="border-t-2 border-white opacity-50 mt-2" />
         <div className="flex justify-center items-center mt-10 flex-col">
         <br></br> <br></br>
-        <h1 class="text-5xl md:text-5xl font-bold bg-gradient-to-r    from-[#87c9ff] via-[#92c0f5] to-[#bfdef7]   text-transparent bg-clip-text animate-gradient    lg:block mb-1">Connect Your Social Media Account</h1>
+       <h1 class="text-5xl md:text-5xl font-bold bg-gradient-to-r from-[#3F31CB] via-[#4C3FFE] to-[#685FFF] text-transparent bg-clip-text animate-gradient lg:block mb-1">
+  Connect Your Social Media Account
+</h1>
+
         
-        <h1 className="text-white text-3xl font-semibold mb-2 text-center w-full opacity-100">And SuperBoost your Success</h1>
+        <h1 className="text-white text-3xl font-semibold mb-2 text-center w-full opacity-50">And SuperBoost your Success</h1>
         <br></br><br></br>
  <Container />
       <DRmap />

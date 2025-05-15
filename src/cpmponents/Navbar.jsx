@@ -16,7 +16,10 @@ function Navbar() {
           <ul className="flex space-x-4 min-w-[35vw">
             <li><a href="#" className="text-gray-300 hover:text-amber-100">Home</a></li>
             <li><a href="#" className="text-gray-300 hover:text-amber-100">Pricing</a></li>
-            <li><a href="#" className="text-gray-300 hover:text-amber-100">features</a></li>
+            <li><a href="#features" onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('features').scrollIntoView({ behavior: 'smooth' });
+            }} className="text-gray-300 hover:text-amber-100">Features</a></li>
             <li><a href="#" className="text-gray-300 hover:text-amber-100">Affiliates</a></li>
 
           </ul>
